@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tJ/eGJpNZotkn4AAaSA51SxD3w44FDg3Aa1AOcUFgXegU8SvxHDlJifU/d6z8vxees0j9hglnpbpbzyom09AAQ==",
+  "success": true,
+  "projectFilePath": "/Users/mazbaig/Development/csharp/Chaat/Grains/Grains.csproj",
+  "expectedPackageFiles": [
+    "/Users/mazbaig/.nuget/packages/microsoft.orleans.codegenerator.msbuild/3.6.2/microsoft.orleans.codegenerator.msbuild.3.6.2.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/microsoft.orleans.core.abstractions/3.6.2/microsoft.orleans.core.abstractions.3.6.2.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

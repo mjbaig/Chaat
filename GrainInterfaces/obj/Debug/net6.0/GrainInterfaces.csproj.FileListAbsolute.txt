@@ -1,0 +1,14 @@
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/bin/Debug/net6.0/GrainInterfaces.deps.json
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/bin/Debug/net6.0/GrainInterfaces.dll
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/bin/Debug/net6.0/GrainInterfaces.pdb
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.csproj.AssemblyReference.cache
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.orleans.g.args.txt
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.orleans.g.cs
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.AssemblyInfoInputs.cache
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.AssemblyInfo.cs
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.csproj.CoreCompileInputs.cache
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.dll
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/refint/GrainInterfaces.dll
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/GrainInterfaces.pdb
+/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/obj/Debug/net6.0/ref/GrainInterfaces.dll

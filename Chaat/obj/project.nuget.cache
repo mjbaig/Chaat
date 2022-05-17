@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "vkfasg4BbweUlWacWSpzztFtO32rhz5MIg6ZOftD01ehXChg1NEN9rHQ4qm+y27rCQRytZ1d+/468hYKFfiEbA==",
+  "success": true,
+  "projectFilePath": "/Users/mazbaig/Development/csharp/Chaat/Chaat/Chaat.csproj",
+  "expectedPackageFiles": [
+    "/Users/mazbaig/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/microsoft.orleans.core.abstractions/3.6.2/microsoft.orleans.core.abstractions.3.6.2.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/mazbaig/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

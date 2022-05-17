@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Orleans.Core.Abstractions/3.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Orleans.Core.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Orleans.Core.Abstractions.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "GrainInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Orleans.Core.Abstractions": "3.6.2"
+        },
+        "compile": {
+          "bin/placeholder/GrainInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrainInterfaces.dll": {}
+        }
+      },
+      "Grains/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GrainInterfaces": "1.0.0",
+          "Microsoft.Orleans.Core.Abstractions": "3.6.2"
+        },
+        "compile": {
+          "bin/placeholder/Grains.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Grains.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Orleans.Core.Abstractions/3.6.2": {
+      "sha512": "tlhfrafEvizeAIyNNHTrzeEQLroEAyLytFJad3xg9/oZ6IqdidLBEF5ygWetJNBRy21YwslSJ6Ofr15rZUm49g==",
+      "type": "package",
+      "path": "microsoft.orleans.core.abstractions/3.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Orleans.Core.Abstractions.dll",
+        "lib/netstandard2.0/Orleans.Core.Abstractions.xml",
+        "logo_128.png",
+        "microsoft.orleans.core.abstractions.3.6.2.nupkg.sha512",
+        "microsoft.orleans.core.abstractions.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "GrainInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../GrainInterfaces/GrainInterfaces.csproj",
+      "msbuildProject": "../GrainInterfaces/GrainInterfaces.csproj"
+    },
+    "Grains/1.0.0": {
+      "type": "project",
+      "path": "../Grains/Grains.csproj",
+      "msbuildProject": "../Grains/Grains.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GrainInterfaces >= 1.0.0",
+      "Grains >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mazbaig/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mazbaig/Development/csharp/Chaat/ChaatSilo/ChaatSilo.csproj",
+      "projectName": "ChaatSilo",
+      "projectPath": "/Users/mazbaig/Development/csharp/Chaat/ChaatSilo/ChaatSilo.csproj",
+      "packagesPath": "/Users/mazbaig/.nuget/packages/",
+      "outputPath": "/Users/mazbaig/Development/csharp/Chaat/ChaatSilo/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mazbaig/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/GrainInterfaces.csproj": {
+              "projectPath": "/Users/mazbaig/Development/csharp/Chaat/GrainInterfaces/GrainInterfaces.csproj"
+            },
+            "/Users/mazbaig/Development/csharp/Chaat/Grains/Grains.csproj": {
+              "projectPath": "/Users/mazbaig/Development/csharp/Chaat/Grains/Grains.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
